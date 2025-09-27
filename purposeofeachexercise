@@ -1,0 +1,33 @@
+Lab 1: IOCs & YARA Rules
+Purpose: Learn how to spot bad files by their unique fingerprints (hashes, sizes, text snippets) so you can quickly find malware on disk.
+
+Labs 2–3: Memory Analysis
+Purpose: Find hidden or injected malware in a computer’s RAM, since many threats live only in memory to avoid file-based scanners.
+
+Lab 4: Empire Detection
+Purpose: Catch in-memory PowerShell attacks by spotting unusual code injections and hidden threads that typical antivirus misses.
+
+Lab 5: Responder/Inveigh Detection
+Purpose: Detect attackers tricking computers into sending credentials by faking network name-resolution, so you can block credential theft.
+
+Lab 6: WMI Abuse, Process Spoofing & Token Theft
+Purpose: Expose attackers abusing built-in Windows features (WMI), pretending to be legitimate processes, or stealing elevated rights using stolen tokens.
+
+Labs 7–9: ELK Detection Rules
+Purpose: Write search rules in your central logging system to automatically flag suspicious PowerShell commands, living-off-the-land binaries, and bypass techniques.
+
+Labs 10–12: Splunk Hunting
+Purpose: Use Splunk queries to find web-app login attacks, unusual data transfers, and Windows domain attacks (Kerberos abuse, DCSync) in large log sets.
+
+Labs 13–15: Network & PCAP Forensics
+Purpose: Analyze raw network traffic for stealthy command-and-control channels, DNS tunneling, and web-shell uploads that endpoint tools can miss.
+
+Lab 16: Osquery on Linux
+Purpose: Run SQL-style checks on Linux machines to spot unauthorized code injection and security setting changes across many servers.
+
+Lab 17: Linux Memory Analysis
+Purpose: Peek into Linux RAM to uncover hidden kernel modules and hooks used by rootkits to stay invisible.
+
+Labs 18–20: Advanced Splunk Scenarios
+Purpose: Build more sophisticated Splunk searches to catch renamed or obfuscated attack tools, SMB abuse, NTLM capture, and disguised PowerShell scripts.
+
